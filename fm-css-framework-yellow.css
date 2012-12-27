@@ -1,0 +1,51 @@
+
+/* 
+    @filename       fm-css-framework-1.0.css
+    @date           27.12.12
+    @author         fmsoft
+    @description    A multipurpose css framework on component based
+    @see            https://github.com/fmsoft/fm-css-framework
+*/
+
+/*------------ Buttons ---------------- */
+
+.fmButton {
+    font-size:12px;
+    text-decoration:none;
+    width:auto;
+    vertical-align:top;
+    padding:2px 22px;
+    font-weight:bold;
+    font-family:helvetica;
+}
+
+.fmButtonYellow {
+    background: -moz-linear-gradient(top, #fff5bd 0, #fff5bd 1px, #ffe975 1px, #ffcf0c 100%);
+    background: -ms-linear-gradient(top, #fff5bd 0%,#ffe975 60%,#ffcf0c 100%);
+    background: -o-linear-gradient(top, #fff5bd 0, #fff5bd 1px, #ffe975 1px, #ffcf0c 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff5bd), color-stop(5%, #fff5bd), color-stop(5%, #ffe975), color-stop(100%, #ffcf0c));
+    background: linear-gradient(top, #fff5bd 0%,#fff5bd 1px,#ffe975 1px,#ffcf0c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe975', endColorstr='#ffcf0c',GradientType=0 );	
+    border:1px solid #e8b463;
+    color: #000;
+}
+
+.fmButtonYellow:hover {
+    background: -moz-linear-gradient(top, #faeeae 0, #faeeae 1px, #f5db58 1px, #f6c409 100%);
+    background: -ms-linear-gradient(top, #faeeae 0%,#f5db58 60%,#f6c409 100%);
+    background: -o-linear-gradient(top, #faeeae 0, #faeeae 1px, #f5db58 1px, #f6c409 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #faeeae), color-stop(5%, #faeeae), color-stop(5%, #f5db58), color-stop(100%, #f6c409));
+    background: linear-gradient(top, #faeeae 0%,#faeeae 1px,#f5db58 1px,#f6c409 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5db58', endColorstr='#f6c409',GradientType=0 );	
+    cursor:pointer;
+}
+
+.fmButtonYellow:active {
+    background: -moz-linear-gradient(top, #f6c203 0, #f6c203 1px, #f6c307 1px, #f5dd60 100%);
+    background: -ms-linear-gradient(top, #f6c203 0%,#f6c307 60%,#f5dd60 100%);
+    background: -o-linear-gradient(top, #f6c203 0, #f6c203 1px, #f6c307 1px, #f5dd60 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f6c203), color-stop(5%, #f6c203), color-stop(5%, #f6c307), color-stop(100%, #f5dd60));
+    background: linear-gradient(top, #f6c203 0%,#f6c203 1px,#f6c307 1px,#f5dd60 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6c307', endColorstr='#f5dd60',GradientType=0 );	
+    cursor:pointer;
+}
