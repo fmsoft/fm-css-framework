@@ -12,7 +12,7 @@ Multipurpose, lightweight, cross browser css framework ..
 
  ------- Supported Colors ---------
 
- blue, gray, green, red, yellow
+ blue, grey, green, red, yellow
 
  ------- Components -----------
 
