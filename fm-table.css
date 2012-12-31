@@ -1,0 +1,53 @@
+/* 
+    Document   : fm-table
+    Created on : 31.Ara.2012, 14:42:21
+    Author     : alifatih
+    Description:
+*/
+
+.fm-table{
+    width:auto;
+    height:auto;
+    border-collapse: collapse;
+    border: 1px solid #CCC;  
+    color:#000;
+    font-family:serif,helvetica,sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+.fm-table td{
+    border:1px solid #CCC;
+    padding:5px;
+}
+
+.fm-table th{
+    background: #CCC;
+    border:1px solid #AAA;
+    padding:5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.fm-table tr.colored-cell td {
+    background: #E5E5E5;
+}
+
+.fm-table.blue{
+   border: 1px solid #05618E; 
+}
+
+.fm-table.blue td{
+    border:1px solid #05618E;
+}
+
+.fm-table.blue th{
+    border:1px solid #478AA5;
+    background: #05618E;
+    color:#FFF;
+}
+
+.fm-table.blue tr.colored-cell td{
+    background: #597C8C;
+    color:#FFF;
+}
