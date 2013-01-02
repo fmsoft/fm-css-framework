@@ -2,9 +2,8 @@
     Document   : fm-buttons
     Created on : 31.Ara.2012, 14:12:58
     Author     : alifatih
-    Description: 
+    Description: Button Styles
 */
-
 
 .fm-button{
 	font-size:12px;
@@ -13,7 +12,7 @@
 	vertical-align:top;
 	padding:6px 30px;
 	font-weight:bold;
-	font-family:helvetica,sans-serif;
+	font-family:'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
 	background: -moz-linear-gradient(center top , #F2F2F2 0px,  #E4E4E4 1px, #CECECE 100%) repeat scroll 0 0 transparent;
 	background: -ms-linear-gradient(top, #F2F2F2 0%,#E4E4E4 60%,#CECECE 100%);
 	background: -o-linear-gradient(top, #F2F2F2 0, #F2F2F2 1px, #E4E4E4 1px, #CECECE 100%);
@@ -23,7 +22,7 @@
         border:1px solid #999999;
         color: #000;
 	cursor:pointer;
-        
+        text-align: center;        
 }
 
 .fm-button:hover{
@@ -46,10 +45,13 @@
 
 .fm-button.small{
         width:50px;
+        padding: 6px 2px;
+        font-size:10px;
 }
 
 .fm-button.large{
         width:200px;
+        font-size: 14px;
 }
 
 .fm-button.disabled{

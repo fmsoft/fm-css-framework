@@ -2,7 +2,7 @@
     Document   : fm-table
     Created on : 31.Ara.2012, 14:42:21
     Author     : alifatih
-    Description:
+    Description: Table Styles
 */
 
 .fm-table{
@@ -10,7 +10,7 @@
     height:auto;
     border-collapse: collapse;
     color:#000;
-    font-family:serif,helvetica,sans-serif;
+    font-family:'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
     text-align: center;
     font-size: 12px;
     border-spacing: 0;
@@ -35,9 +35,10 @@
     background: -ms-linear-gradient(top,  #e8e8e8 0%,#eeeeee 99%); /* IE10+ */
     background: linear-gradient(to bottom,  #e8e8e8 0%,#eeeeee 99%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#eeeeee',GradientType=0 ); /* IE6-8 */
+    cursor:default;
 }
 
-.fm-table tr:nth-child(odd) {
+.fm-table tr:nth-child(even) {
     background: #f5f5f5;
     -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
     -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
@@ -102,7 +103,8 @@
     -webkit-transition: all 0.1s ease-in-out;
     -moz-transition: all 0.1s ease-in-out;
     -ms-transition: all 0.1s ease-in-out;
-    transition: all 0.1s ease-in-out;     
+    transition: all 0.1s ease-in-out; 
+    cursor:pointer;
 }  
 
 
