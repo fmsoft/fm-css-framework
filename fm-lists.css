@@ -5,3 +5,97 @@
     Description: List Styles
 */
 
+ul{
+    margin: 0;
+    padding: 0; 
+}
+
+ul li{
+    font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+    font-size: 12px;
+    font-weight: normal;    
+    margin-bottom:3px; 
+    padding: 0 5px 0 25px;
+    background: url(img/list-default-icon.png) no-repeat 0 50%;
+    list-style: none;   
+}
+
+ul.fm-list.list-1 li{
+    background: url(img/list-1-icon.png) no-repeat 0 50%;
+}
+
+ul.fm-list.list-2 li{
+    background: url(img/list-2-icon.png) no-repeat 0 50%;
+}
+
+ul.fm-list.list-3 li{
+    background: url(img/list-3-icon.png) no-repeat 0 50%;
+}
+
+ul.fm-list.list-4 li{
+    background: url(img/list-4-icon.png) no-repeat 0 50%;
+}
+
+ul.fm-list.list-5 li{
+    background: url(img/list-5-icon.png) no-repeat 0 50%;
+}
+
+ul.fm-list.list-6 li{
+    background: url(img/list-6-icon.png) no-repeat 0 50%;
+}
+
+ul.fm-list.list-7 li{
+    background: url(img/list-7-icon.png) no-repeat 0 50%;
+}
+
+ul.fm-list.list-8 li{
+    background: url(img/list-8-icon.png) no-repeat 0 50%;
+}
+
+ul.fm-list.list-9 li{
+    background: url(img/list-9-icon.png) no-repeat 0 50%;
+}
+
+ul.fm-list.list-10 li{
+    background: url(img/list-10-icon.png) no-repeat 0 50%;
+}
+
+ul.fm-list.list-11 li{
+    background: url(img/list-11-icon.png) no-repeat 0 50%;
+}
+
+ul.fm-list.list-12 li{
+    background: url(img/list-12-icon.png) no-repeat 0 50%;
+}
+
+ul.fm-list.list-13 li{
+    background: url(img/list-13-icon.png) no-repeat 0 50%;
+}
+
+ul.fm-list.list-14 li{
+    background: url(img/list-14-icon.png) no-repeat 0 50%;
+}
+
+ul.fm-list.list-15 li{
+    background: url(img/list-15-icon.png) no-repeat 0 50%;
+}
+
+ul.fm-list.list-16 li{
+    background: url(img/list-16-icon.png) no-repeat 0 50%;
+}
+
+ul.fm-list.list-17 li{
+    background: url(img/list-17-icon.png) no-repeat 0 50%;
+}
+
+ul.fm-list.list-18 li{
+    background: url(img/list-18-icon.png) no-repeat 0 50%;
+}
+
+ul.fm-list.list-19 li{
+    background: url(img/list-19-icon.png) no-repeat 0 50%;
+}
+
+ul.fm-list.list-20 li{
+    background: url(img/list-20-icon.png) no-repeat 0 50%;
+}
