@@ -6,7 +6,7 @@
 */
 
 
-.fm-font{
+.fm-font-dropcap,.fm-font{
     font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
     font-size: 12px;
     font-weight: normal;
@@ -14,7 +14,7 @@
     color: #000;
 }
 
-.fm-font.dropcap{
+.fm-font-dropcap{
     display: block;
     float: left;
     font-size: 42px;

@@ -5,7 +5,7 @@
     Description: Response Message Box Styles
 */
 
-.fm-response{
+.fm-response,.fm-response-success,.fm-response-warning,.fm-response-info,.fm-response-fail{
     width:auto;
     max-width: 500px;
     padding:30px;
@@ -24,7 +24,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#dbdbdb',GradientType=0 );
 }
 
-.fm-response.success{    
+.fm-response-success{    
     padding:30px 30px 30px 60px;
     border: 1px solid #6aa31a;
     background: url(img/response-success-icon.png) no-repeat  20px 50%, #f6ffea;
@@ -38,7 +38,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6ffea', endColorstr='#c5ff75',GradientType=0 );    
 }
 
-.fm-response.warning{
+.fm-response-warning{
     padding:30px 30px 30px 60px;
     border:1px solid #FFB403;
     background: url(img/response-warning-icon.png) no-repeat  20px 50%, #fcf8e8; 
@@ -52,7 +52,7 @@
 }
 
 
-.fm-response.info{
+.fm-response-info{
     padding:30px 30px 30px 60px;
     border:1px solid #1475A7;
     background: url(img/response-info-icon.png) no-repeat  20px 50%,#e8f2f7; 
@@ -65,7 +65,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8f2f7', endColorstr='#bee5f8',GradientType=0 ); 
 }
 
-.fm-response.fail{
+.fm-response-fail{
     padding:30px 30px 30px 60px;
     border:1px solid #A41919;
     background: url(img/response-fail-icon.png) no-repeat  20px 50%, #ffefef; 
