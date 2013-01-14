@@ -16,86 +16,9 @@ ul li{
     font-weight: normal;    
     margin-bottom:3px; 
     padding: 0 5px 0 25px;
+    list-style: none; 
+}
+
+ul.fmList li{
     background: url(img/list-default-icon.png) no-repeat 0 50%;
-    list-style: none;   
-}
-
-ul.fm-list-1 li{
-    background: url(img/list-1-icon.png) no-repeat 0 50%;
-}
-
-ul.fm-list-2 li{
-    background: url(img/list-2-icon.png) no-repeat 0 50%;
-}
-
-ul.fm-list-3 li{
-    background: url(img/list-3-icon.png) no-repeat 0 50%;
-}
-
-ul.fm-list-4 li{
-    background: url(img/list-4-icon.png) no-repeat 0 50%;
-}
-
-ul.fm-list-5 li{
-    background: url(img/list-5-icon.png) no-repeat 0 50%;
-}
-
-ul.fm-list-6 li{
-    background: url(img/list-6-icon.png) no-repeat 0 50%;
-}
-
-ul.fm-list-7 li{
-    background: url(img/list-7-icon.png) no-repeat 0 50%;
-}
-
-ul.fm-list-8 li{
-    background: url(img/list-8-icon.png) no-repeat 0 50%;
-}
-
-ul.fm-list-9 li{
-    background: url(img/list-9-icon.png) no-repeat 0 50%;
-}
-
-ul.fm-list-10 li{
-    background: url(img/list-10-icon.png) no-repeat 0 50%;
-}
-
-ul.fm-list-11 li{
-    background: url(img/list-11-icon.png) no-repeat 0 50%;
-}
-
-ul.fm-list-12 li{
-    background: url(img/list-12-icon.png) no-repeat 0 50%;
-}
-
-ul.fm-list-13 li{
-    background: url(img/list-13-icon.png) no-repeat 0 50%;
-}
-
-ul.fm-list-14 li{
-    background: url(img/list-14-icon.png) no-repeat 0 50%;
-}
-
-ul.fm-list-15 li{
-    background: url(img/list-15-icon.png) no-repeat 0 50%;
-}
-
-ul.fm-list-16 li{
-    background: url(img/list-16-icon.png) no-repeat 0 50%;
-}
-
-ul.fm-list-17 li{
-    background: url(img/list-17-icon.png) no-repeat 0 50%;
-}
-
-ul.fm-list-18 li{
-    background: url(img/list-18-icon.png) no-repeat 0 50%;
-}
-
-ul.fm-list-19 li{
-    background: url(img/list-19-icon.png) no-repeat 0 50%;
-}
-
-ul.fm-list-20 li{
-    background: url(img/list-20-icon.png) no-repeat 0 50%;
 }

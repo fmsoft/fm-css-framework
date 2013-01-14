@@ -6,7 +6,7 @@
 */
 
 
-.fm-font-dropcap,.fm-font{
+.fmFontDropcap,.fmFont{
     font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
     font-size: 12px;
     font-weight: normal;
@@ -14,7 +14,7 @@
     color: #000;
 }
 
-.fm-font-dropcap{
+.fmFontDropcap{
     display: block;
     float: left;
     font-size: 42px;
@@ -55,4 +55,12 @@ h6{
 
 blockquote:before, blockquote:after{
     content: none;
+}
+
+.highlight{
+    background: #FFFFAF;
+}
+
+.divider{
+    background:url(img/fm-stripe.png) repeat-x 0 0;
 }

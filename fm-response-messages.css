@@ -5,7 +5,7 @@
     Description: Response Message Box Styles
 */
 
-.fm-response,.fm-response-success,.fm-response-warning,.fm-response-info,.fm-response-fail{
+.fmResponse,.fmResponseSuccess,.fmResponseWarning,.fmResponseInfo,.fmResponseFail{
     width:auto;
     max-width: 500px;
     padding:30px;
@@ -22,9 +22,13 @@
     background: -ms-linear-gradient(top,  #f2f2f2 0%,#dbdbdb 100%);
     background: linear-gradient(to bottom,  #f2f2f2 0%,#dbdbdb 100%); 
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#dbdbdb',GradientType=0 );
+    -webkit-border-radius: 3px;    
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color:#848484;
 }
 
-.fm-response-success{    
+.fmResponseSuccess{    
     padding:30px 30px 30px 60px;
     border: 1px solid #6aa31a;
     background: url(img/response-success-icon.png) no-repeat  20px 50%, #f6ffea;
@@ -35,10 +39,11 @@
     background: url(img/response-success-icon.png) no-repeat  20px 50%, -o-linear-gradient(top,  #f6ffea 0%,#c5ff75 100%); 
     background: url(img/response-success-icon.png) no-repeat  20px 50%, -ms-linear-gradient(top,  #f6ffea 0%,#c5ff75 100%); 
     background: url(img/response-success-icon.png) no-repeat  20px 50%, linear-gradient(to bottom,  #f6ffea 0%,#c5ff75 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6ffea', endColorstr='#c5ff75',GradientType=0 );    
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6ffea', endColorstr='#c5ff75',GradientType=0 );  
+    color:#5A8913;
 }
 
-.fm-response-warning{
+.fmResponseWarning{
     padding:30px 30px 30px 60px;
     border:1px solid #FFB403;
     background: url(img/response-warning-icon.png) no-repeat  20px 50%, #fcf8e8; 
@@ -49,10 +54,11 @@
     background: url(img/response-warning-icon.png) no-repeat  20px 50%, -ms-linear-gradient(top,  #fcf8e8 0%,#feefb4 100%);
     background: url(img/response-warning-icon.png) no-repeat  20px 50%, linear-gradient(to bottom,  #fcf8e8 0%,#feefb4 100%); 
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcf8e8', endColorstr='#feefb4',GradientType=0 );   
+    color:#DB9900;
 }
 
 
-.fm-response-info{
+.fmResponseInfo{
     padding:30px 30px 30px 60px;
     border:1px solid #1475A7;
     background: url(img/response-info-icon.png) no-repeat  20px 50%,#e8f2f7; 
@@ -63,9 +69,10 @@
     background: url(img/response-info-icon.png) no-repeat  20px 50%,-ms-linear-gradient(top,  #e8f2f7 0%,#bee5f8 100%); 
     background: url(img/response-info-icon.png) no-repeat  20px 50%,linear-gradient(to bottom,  #e8f2f7 0%,#bee5f8 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8f2f7', endColorstr='#bee5f8',GradientType=0 ); 
+    color:#065E89;
 }
 
-.fm-response-fail{
+.fmResponseFail{
     padding:30px 30px 30px 60px;
     border:1px solid #A41919;
     background: url(img/response-fail-icon.png) no-repeat  20px 50%, #ffefef; 
@@ -76,4 +83,5 @@
     background: url(img/response-fail-icon.png) no-repeat  20px 50%,-ms-linear-gradient(top,  #ffefef 0%,#ffa0a0 100%); 
     background: url(img/response-fail-icon.png) no-repeat  20px 50%,linear-gradient(to bottom,  #ffefef 0%,#ffa0a0 100%); 
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffefef', endColorstr='#ffa0a0',GradientType=0 );
+    color:#8C0F0F;
 }
